@@ -148,6 +148,7 @@ header .image::before{
     color: #d81d1d;
     opacity: 0.2;
     z-index: -100;
+    filter: blur(100px);
 }
 
 header .image img{
@@ -378,6 +379,11 @@ footer .column > a:hover{
 @media (width < 600px){
     header .image::before{
         display: none;
+    }
+
+
+    .nav-logo{
+        max-width: 120px;
     }
 
     .container {
